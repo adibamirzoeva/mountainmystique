@@ -1,7 +1,14 @@
 body {
+    background: #F6FAFE;
+    max-width: auto;
+    margin: 0%;
+
+}
+
+.menu_home {
     background-image: url("../img/горы.png");
+    height: 620px;
     background-size: 100%;
-    width: 99%;
 }
 
 .header {
@@ -11,7 +18,7 @@ body {
 }
 
 .header ul {
-    list-style-type: none; 
+    list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
@@ -37,6 +44,7 @@ body {
 .home {
     margin-left: 40px;
     margin-top: 12%;
+    height: 460px;
 }
 
 .home .name {
@@ -69,7 +77,429 @@ body {
 }
 
 .home .buttons_home .about:hover {
-    color: brown;
+    color: rgb(19, 18, 18);
     background-color: unset;
+
+}
+
+.general-block {
+    margin: initial;
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    background-size: 99%;
+    padding-top: 3%;
+    height: 790px;
+}
+
+.general-block img {
+    width: 280px;
+    height: 280px;
+    flex-shrink: 0;
+}
+
+.block {
+    align-items: center;
+}
+
+.about_me {
+    width: 30%;
+}
+
+.lang {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lang p {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.about_picture {
+    text-align: center;
+    width: 70%;
+}
+
+.block .img-one {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.block .img-two {
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.general-blocks {
+    background-color: aliceblue;
+    width: 100%;
+    margin-top: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block p {
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: Inter;
+}
+
+.block h1 {
+    margin-left: 40px;
+    font-size: 50px;
+    font-family: 'Anonymous Pro', monospace;
+    font-style: normal;
+}
+
+.general-blocks .blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.general-blocks .blocks img {
+    width: 380px;
+    height: 380px;
+    margin-left: 2%;
+    margin-top: 20px;
+    border-radius: 60px;
+}
+
+.general-blocks .blocks p {
+    width: 80%;
+    margin-left: 8%;
+}
+
+.general-blocks .blocks .card {
+    width: 30%;
+    margin-left: 3%;
+    align-items: center;
+
+}
+
+.general-blocks .blocks .image_container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.general-blocks h1 {
+    font-size: 50px;
+    margin-left: 80px;
+}
+
+.general-blocks .card2 {
+    display: flex;
+}
+
+.general-blocks .card2 img {
+    width: 50%;
+    margin-left: 65px;
+}
+
+.general-blocks .card2 p {
+    width: 50%;
+    font-size: 27px;
+    justify-content: center;
+    align-content: center;
+}
+
+.title {
+    color: #040826;
+    text-align: start;
+    font-family: "Anonymous Pro";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 200;
+    margin: 15px 40px;
+    /* line-height: 114.972%; 229.943px */
+
+}
+.photos {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+    margin: 50px;
+    padding: 0;
+    
+}
+.photo {
+    width: 400px;
+    height: 325px;
+}    
+.pictures {
+    width: 220px;
+    height: 265px;
+}
+.pictures1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0;
+    margin: -525px 680px;
+    position: absolute;
+}      
+.txt {
+    color: #040826;
+    font-family: 'Inconsolata';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 114.972%; 
+    margin-top: 1450px;
+    margin-left: 35px;
+}
+.txt2 {
+    color: #040826;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-left: 185px;
+}
+.logos{
+    position: relative;
+
+    
+}
+.ellipse{
+    position: absolute;
+    height: 105px;
+    top: 0;
+    left: 0;
+    margin-top: 115px;
+    margin-left: 35px;
+}
+.amirs{
+    position: absolute;
+    height: 65px;
+    top: 15px;
+    left: 0;
+    margin-top: 115px;
+    margin-left: 35px;
+}
+.icon1 {
+    width: 60px;
+    height: 45px;
+    margin-left: 185px;
+}
+.icon2 {
+    width: 40px;
+    height: 30px;
+    margin-left: 8px;  
+}
+.icon3 {
+    width: 40px;
+    height: 35px;
+    margin-left: 15px;
+    
+}
+.amir {
+    color: #040826;
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 35px;
+    margin-right: 15px;
+    margin-left: 45px;
+}
+.intro_pic {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px 15px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.pngs {
+    width: 340px;
+    height: 200px;
+}
+.logo_d {
+    width: 150px;
+    margin-left: 750px;
+    margin-top: 98px;
+}
+.daidushki {
+    color: #040826;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: 950px;
+    margin-top: -70px;
+
+}
+.d_text {
+    color: #040826;
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: 750px; 
+    margin-top: 65px;
+}
+.logo_kuh {
+    width: 90px;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.title_kuhrav {
+    color: #040826;
+    font-family: 'Inter';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: 150px;
+    margin-top: -60px;
+}
+
+.subtitle2{
+    color: #040826;
+    font-family: "Inter";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 50;                
+    text-decoration-line: underline;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.subtitle_main {
+    color: #040826;
+    font-family: 'Inconsolata';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 50;
+    margin-top: -18px;
+    margin-left: 95px;
+}
+.winter{
+    color: #040826;
+    font-family: "Inter";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 50;
+    margin-top: 0px;
+    margin-left: 35px;
+}
+.stroka {
+    color: #040826;
+    font-family: "Inconsolata";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 50;
+    margin-left: 35px;
+    margin-top: -15px;
+}
+.telegram {
+    color: #040826;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 50;
+    margin-left: 35px;
+    
+}
+.teleg {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.insta{
+    width: 45px;
+    height: 35px;
+    margin-top: 10px;
+}
+.pic-kuh {
+    width: 205px;
+    height: 145px;
+}
+.pictures_kuhrav {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: repeat(2,1fr);
+    gap: 30px;
+    margin: -285px 600px;
+}
+.last_text {
+    color: #000;
+    text-align: start;
+    font-family: 'Inter';
+    font-size: 25px;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+.regist {
+    margin-left: 750px;
+    margin-top: -300px;
+    margin-bottom: 150px;
+}
+.registration-form {
+    background: #CFD3F4;
+    max-width: 300px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 15px solid transparent; 
+    border-radius: 15px;
+
+  }
   
+  input[type="email"],
+  input[type="password"],
+  input[type="submit"] {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #040826;
+    color: white; 
+    cursor: pointer; 
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #565761;
+  }
+.lsf {
+    color: #040826;
+    font-family: 'Inter';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 145%; /* 435px */
+    letter-spacing: -3px;
+    margin-left: 35px;
+    margin-top: 55px;
+} 
+.question {
+    color: #1E1D1D;
+    font-family: 'Inter';
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 145%; /* 290px */
+    letter-spacing: -2px;
+    margin-left: 35px;
+    margin-top: 85px;
+    margin-bottom: 200px;
+}
+.footer {
+    width: 1350px;
+    height: 429px;
+    background: #040826;
 }
